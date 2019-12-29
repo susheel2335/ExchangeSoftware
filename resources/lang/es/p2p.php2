@@ -1,0 +1,84 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+
+ 'BuyBitcoinsinBrazil' => 'Comprar Bitcoins en Brasil ...',
+     'Seller' => 'Vendedor',
+   'paymentmethod' => 'método de pago',
+   'price/btc'=>'precio / btc',
+   'limits'=>'límites',
+   'buybitcoin'=>'buybitcoin',
+   'buy'=>'comprar',
+   'sellbitcoin'=>'venderbitcoin',
+   'buyer' => 'comprador',
+   'sell' => 'vender',
+   'termswithtrade' => 'términos comerciales',
+   'tradetype' => 'tipo de comercio',
+   'tradestatus' => 'tradestatus',
+   'userid' => 'ID de usuario',
+ 'tradeuserid' => 'ID de usuario...',
+ 'contact' => 'contacto',
+ 'selling' => 'de venta', 
+ 'btcfor' => 'btcfor',
+'sellinginadvirtisement' => 'venta de publicidad',
+ 'to' => 'a',
+ 'atthebitrate' => 'atthebitrate',
+ 'btcsentonbuyer' => 'btcsentonbuyer',
+ 'sellinadvertisement' => 'publicidad',
+   'paymentshowonbuyer'=>'Pagoshowonbuyer',
+   'amount'=>'cantidad',
+   'refrense/message'=>'referencia / mensaje',
+    ' P2PTradeReceiptContact'=>' P2PTradeReceiptContact',
+    'xpagg.comfeebtc'=>'xpagg.comfeebtc',
+    'releasecoin'=>'Releasecoin',
+    'markpaymentaspaid'=>'markpaymentaspaid',
+    'submitfeedback'=>'enviar comentarios',
+    'blockwithoutfeedback'=>'bloque sin retroalimentación',
+    'Block your trading partner from trading with you, but dont give him any feedback'=>'Evite que su socio comercial negocie con usted, pero no le dé comentarios.',
+    'distructandblock'=>'distructandblock',
+    'Give your trading partner negative feedback that decreases his reputation and block his account, this prevents him from trading with you again.'=>'Déle a su socio comercial comentarios negativos que disminuyan su reputación y bloqueen su cuenta, esto le impide volver a comerciar con usted.',
+    'Give your trading partner neutral feedback that does not affect his reputation.'=>'Dele a su socio comercial una opinión neutral que no afecte su reputación.',
+    'nuetral'=>'nuetral',
+    'positive'=>'positiva',
+    'Give your trading partner positive feedback to increase his reputation.'=>'Dé a su socio comercial comentarios positivos para aumentar su reputación.',
+    'trustworthy'=>'digno de confianza',
+    'disputetrade'=>'disputa',
+    'send'=>'enviar',
+    'for1btc'=>'for1btc',
+    'attheexchangerate'=>'en el intercambio',
+    'btcsenttobuyer'=>'btcsenttobuyer',
+    'Create a bitcoin trade advertisement'=>'Crear un anuncio comercial de bitcoin',
+    'Advertisement rules and requirements'=>'Reglas y requisitos de publicidad',
+    'For your ads to display you need to have Bitcoins in your xpagg wallet. You need 0.04 BTC or more for advertisements with online payment methods.'=>'Para que se muestren sus anuncios, debe tener Bitcoins en su billetera xpagg. Necesita 0.04 BTC o más para anuncios con métodos de pago en línea.',
+    'Certain payment methods require you to be ID verified before your ads are visible.'=>'Ciertos métodos de pago requieren que se verifique la identificación antes de que sus anuncios sean visibles.',
+    'Each completed trade costs advertisers 1% of the total trade amount.'=>'Cada transacción completa cuesta a los anunciantes el 1% del monto total de la transacción..',
+    'See all fees on our fees page'=>'Ver todas las tarifas en nuestra página de tarifas',
+    'Once a trade is opened the price is final, except when there is a clear mistake in the pricing.'=>'Una vez que se abre una operación, el precio es final, excepto cuando hay un claro error en el precio.',
+    'You are not allowed to buy or sell Bitcoin on behalf of someone else (brokering).'=>'No está permitido comprar o vender Bitcoin en nombre de otra persona (intermediación).',
+    'You may only use payment accounts that are registered in your own name (no third party payments!).'=>'Solo puede usar cuentas de pago que estén registradas a su propio nombre (¡sin pagos de terceros!).',
+    'You must provide your payment details in the advertisement or in the trade chat.'=>'Debe proporcionar sus datos de pago en el anuncio o en el chat comercial',
+    'All communication must happen on p2p trading plateform'=>'Toda comunicación debe realizarse en la plataforma de negociación p2p',
+    'Payment methods marked'=>'Métodos de pago marcados',
+    'High Risk'=>'Alto riesgo',
+    'have a'=>'tener un',
+    'significant risk of fraud'=>'riesgo significativo de fraude',
+    'Be careful and always ID verify your trading partners when using high risk payment methods.'=>'Tenga cuidado y siempre identifique a sus socios comerciales cuando utilice métodos de pago de alto riesgo.',
+    ' Want to increase your visibility? By identifying yourself, your ad will gain visibility more easily.'=>'¿Quieres aumentar tu visibilidad? Al identificarse, su anuncio obtendrá visibilidad más fácilmente.',
+    'iwantto'=>'quiero',
+    'Sell your bitcoins online'=>'Vende tus bitcoins en línea',
+    'Click here to identify'=>'Haga clic aquí para identificar',
+    'Buy bitcoins online'=>'Comprar bitcoins en línea',
+' What kind of trade advertisement do you wish to create? If you wish to sell bitcoins make sure you have bitcoins in your xpagg wallet.'=>' ¿Qué tipo de anuncio comercial desea crear? Si desea vender bitcoins, asegúrese de tener bitcoins en su billetera xpagg.',
+'location'=>'ubicación',
+];

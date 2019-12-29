@@ -1,0 +1,324 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Trade Plateform</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/design/assets/images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="/design/assets/plugins/highlightjs/styles/darcula.css">
+    <link href="/design/main/css/style.css" rel="stylesheet">
+
+</head>
+
+<body ng-app="myApp">
+
+
+
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr">  </b>
+                    <span class="brand-title"> <img alt="" class="img-fluid" src="/1.png"></span>
+                </a>
+            </div>
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="toggle-icon"><i class="icon-menu"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="header-left">
+                     
+                </div>
+                <div class="header-right">
+
+                    <ul class="clearfix">
+                        <li class="icons">
+                            <a href="javascript:void(0)" class="">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-primary">3</span>
+                            </a>
+                            <div class="drop-down animated flipInX dropdown-notfication">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-envelope"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">New message received</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                   
+                                    </ul>
+                                    <a class="d-flex justify-content-between bg-primary px-4 text-white" href="javascript:void()">
+                                        <span>All Notifications</span>
+                                        <span><i class="mdi mdi-file-document-box"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <div class="user-img c-pointer">
+                                <img src="/design/assets/images/users/1.jpg" height="40" width="40" alt="avatar">
+                                <strong class="ml-2">John Doe <span><i class="fa fa-caret-down ml-2"></i></span></strong>
+
+                            </div>
+                            <div class="drop-down dropdown-profile animated flipInX">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="app-profile.html">Profile</a>
+                                        </li>
+                                        
+                                        <li><a href="/logout">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Navigation</li>
+                    <li>
+                        
+                        
+                            
+                         <li>   <a   href="/system/account">Accounts</a></li><li>
+    
+       <a  href="/trade/BTC/USD">Exchange</a></li><li>
+       
+       
+    <a href="/system/transactions">Transactions</a></li><li>
+    <a href="/system/deposits">Deposits</a></li><li>
+    <a  href="/system/widthdraw">Widthdraw</a></li><li>
+    <a  href="/auth/profile">Profile</a></li><li>
+    
+    
+                             
+                     
+                     
+                    
+                
+                   
+
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col-sm-6 p-md-0">
+                    <div class="breadcrumb-range-picker">
+                        <span><i class="icon-calender"></i></span>
+                        <span class="ml-1">The current UNIX timestamp is {{  date("Y.m.d")  }}.</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Components</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container">
+                
+
+
+                <div class="row">
+                    <div class="col">
+                        
+                        
+                        @yield('content')
+                        
+                        
+                        
+                    </div>
+                </div>
+
+    
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+ 
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="/design/assets/plugins/common/common.min.js"></script>
+    <script src="/design/main/js/custom.min.js"></script>
+    <script src="/design/main/js/settings.js"></script>
+    <script src="/design/main/js/styleSwitcher.js"></script>
+    
+    <script src="/design/assets/plugins/highlightjs/highlight.pack.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <script>
+        (function($) {
+            "use strict"
+            
+            new quixSettings({
+                version: "light", //2 options "light" and "dark"
+                layout: "vertical", //2 options, "vertical" and "horizontal"
+                navheaderBg: "color_7", //have 10 options, "color_7" to "color_10"
+                headerBg: "color_7", //have 10 options, "color_7" to "color_10"
+                sidebarStyle: "full", //defines how sidebar should look like, options are: "full", "compact", "mini" and "overlay". If layout is "horizontal", sidebarStyle won't take "overlay" argument anymore, this will turn into "full" automatically!
+                sidebarBg: "color_7", //have 10 options, "color_7" to "color_10"
+                sidebarPosition: "static", //have two options, "static" and "fixed"
+                headerPosition: "static", //have two options, "static" and "fixed"
+                containerLayout: "wide",  //"boxed" and  "wide". If layout "vertical" and containerLayout "boxed", sidebarStyle will automatically turn into "overlay".
+                direction: "ltr" //"ltr" = Left to Right; "rtl" = Right to Left
+            });
+
+
+        })(jQuery);
+    </script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"  ></script>
+
+
+
+
+<script>
+
+function myFunction() {
+  /* Get the text field */
+  var copyText = "https://backoffice.amerikoin.net";
+
+  /* Alert the copied text */
+  alert("Copied the URL: " + copyText);
+} 
+
+
+    
+    $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget)
+  
+  // Button that triggered the modal
+  
+  
+  var recipient = button.data('whatever') 
+  
+  // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX requeshhhht here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  
+  
+  var modal = $(this)
+  modal.find('.modal-title').text(  recipient)
+  
+  
+     $('input#coin').val(recipient); 
+     
+     
+   var deposit = button.data('deposit')
+//   $('input#deposit').val(deposit); 
+   
+//   $('#deposit').data('id', deposit);
+   
+   
+
+
+   
+})
+
+
+
+  $('#exampleModalWidthdraw').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('symbol') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+   
+   var maxwidthdraw = button.data('whatever')
+   
+   
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.x
+  var modal = $(this)
+  modal.find('.modal-title').text( recipient)
+  
+  
+    modal.find('#max').text( "Maximum possible Widthdraw for "+recipient+" is "+maxwidthdraw)
+    
+     $("input#amount").attr("max",maxwidthdraw);
+  
+      $('input#coin').val(recipient );   
+      
+      
+      
+       
+})
+
+
+
+</script><script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+
+</body>
